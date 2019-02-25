@@ -286,6 +286,7 @@ void set_unblock()
 void sigchld_handler(int sig) 
 {
     // IMPLEMENTglobal bool variable that indicates whether job was bg or fg and only reap 
+    // comment
     /*pid_t pid;
     pid = wait(NULL);
     printf("PID %d exited.\n", pid);
